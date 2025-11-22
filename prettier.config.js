@@ -4,6 +4,6 @@ export default {
     tabWidth: 2,
     semi: true,
     experimentalUseClient: true,
-    printWidth: 50,
+    printWidth: 80,
     endOfLine: 'auto',
 };
