@@ -3,12 +3,12 @@ import TextType from '@/components/TextType';
 
 export default function Home() {
   return (
-    <div className="flex justify-center flex-col w-full">
+    <div className="flex w-full flex-col justify-center">
       <Header />
 
       <section
         id="home"
-        className="h-screen flex items-center justify-center bg-primary text-primary-foreground text-5xl font-bold"
+        className="bg-primary text-primary-foreground flex h-screen items-center justify-center text-5xl font-bold"
       >
         <TextType
           text={['Text typing effect', 'for your websites', 'Happy coding!']}
@@ -20,25 +20,25 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className="h-screen flex items-center justify-center bg-secondary text-secondary-foreground text-5xl font-bold"
+        className="bg-secondary text-secondary-foreground flex h-screen items-center justify-center text-5xl font-bold"
       >
         About
       </section>
       <section
         id="skills"
-        className="h-screen flex items-center justify-center bg-accent text-accent-foreground text-5xl font-bold"
+        className="bg-accent text-accent-foreground flex h-screen items-center justify-center text-5xl font-bold"
       >
         Skills
       </section>
       <section
         id="projects"
-        className="h-screen flex items-center justify-center bg-card text-card-foreground text-5xl font-bold"
+        className="bg-card text-card-foreground flex h-screen items-center justify-center text-5xl font-bold"
       >
         Projects
       </section>
       <section
         id="contact"
-        className="h-screen flex items-center justify-center bg-foreground text-background text-5xl font-bold"
+        className="bg-foreground text-background flex h-screen items-center justify-center text-5xl font-bold"
       >
         Contact
       </section>

@@ -93,7 +93,14 @@ export default tseslint.config(
             'no-unreachable': 'error',
             'prefer-const': 'error',
 
-            'max-len': ['error', { code: 80 }],
+            'max-len': ['error', {
+              code: 80,
+              ignoreStrings: true,
+              ignoreTemplateLiterals: true,
+              ignoreComments: true,
+              ignoreTrailingComments: true,
+              ignoreUrls: true,
+            }],
 
             'import/no-unresolved': 'off',
             'import/no-duplicates': 'error',

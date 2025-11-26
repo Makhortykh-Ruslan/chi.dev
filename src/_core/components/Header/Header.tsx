@@ -4,8 +4,8 @@ import { HEADER_CONFIG } from './constants/header.config';
 
 export const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur border-b border-border">
-      <div className="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
+    <header className="bg-background/80 border-border fixed top-0 right-0 left-0 z-50 border-b backdrop-blur">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <div className="text-xl font-bold">Chi.dev</div>
 
